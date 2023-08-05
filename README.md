@@ -1,4 +1,4 @@
-### Python_Basics
+# Python_Basics
 ***
 This is the code that I have wrote during my python learning journey. I have also make note to get better understand of mine.
 
