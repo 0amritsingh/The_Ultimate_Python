@@ -30,9 +30,23 @@ if "am" in "amrit":
     print("Yes")
 else:
     print("No")
-    
-# List Comprehention
 
+# List Concatenation
+l1 = [1,2,3,4,5]
+l2 = [6,7,8,9,0]
+print(l1 + l2) # we can add two or more lists
+print(l1[1:4] + l2) # we can do sclicing also
+
+# Nesked List
+l3 = [1,2,[3,4,5],[6,7,8,[9,0]]] 
+print(l3) # we can print list in list
+print(l3[2]) # printing elements
+print(l3[3])
+a = l3[3] # and thats how we print element in element of the list
+print(a[3])
+print(l3[3][3]) # or like this
+
+# List Comprehention
 lst = [i for i in range(10)] # supose we need to make a list of 1000 ints so we'll not just set to typw all 1000 int we use loops in the very list.
 print(lst)
 
