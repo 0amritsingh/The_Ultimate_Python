@@ -1,5 +1,7 @@
 # List in Python
 
+# List is mutable it can be changed like l[3] = "5" and code like this will run without throwing error
+
 l = [3, 4, 5, 6.1, 7.2, "sring", True, False]
 
 print(l) # prints whole l
