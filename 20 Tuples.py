@@ -1,5 +1,6 @@
 # Tubles in Python
 
+# Tuples are Immutable and List is mutable.
 # Tuples are like list and butt they can not change (tuple[0] = 34, this code will thorw error), yess we can do indexing and slicing in tuples.
 
 t = (1, 2, 3, 4, 5) # We can make a tuple of multiple elements obviously
