@@ -41,7 +41,7 @@ except ValueError as e: # we and print the massage by python by taking it as var
 try:
     n = int(input("Enter an integer: "))
     c = [0, 1]
-    print(c[num])
+    print(c[n])
 except ValueError:
     print("Number entered is not an integer.")
 except IndexError:
