@@ -61,15 +61,15 @@ print(func1())
 # 2. file cleanup
 # 3. closing file 
 # e.g: 
-# try:
-#     # Open a file
-#     file = open("myfile.txt", "w")
-#     # Write some data to the file
-#     file.write("This is some data.")
-# except Exception as e:
-#     # Handle the exception
-#     print(e)
-# finally:
-#     # Close the file
-#     file.close()  
+try:
+    # Open a file
+    file = open("myfile.txt", "w")
+    # Write some data to the file
+    file.write("This is some data.")
+except Exception as e:
+    # Handle the exception
+    print(e)
+finally:
+    # Close the file
+    file.close()
  
