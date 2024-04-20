@@ -22,3 +22,10 @@ while (k < 5):
 else:
     print(5) # this will run only with the condition is FALSE.  
     
+# So, in other languages one more type of loop that exists `do-while loops`.
+
+# Do-while loop is just like while loop but a slight difference i.e. it runs the code at least once before riding into the loop condition.
+
+# It's does not exists in python but still it is important for interviews. Questions like: How do you emulate the do-while loop in python?
+
+# You can do this after learing break and continue statement in python ( next chapter)

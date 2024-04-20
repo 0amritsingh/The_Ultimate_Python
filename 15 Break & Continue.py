@@ -18,3 +18,18 @@ for j in range(1, 11):
         continue # skips only one(as per condition) iteration and continue(from the next iteration) the loop
     print(j)
     
+# So, in previous chapter we learned about while loops and emulation of do-while loop.
+# Now you know that what is break statement and we are emulating do-while loop with this statement.
+# The following example is the best way to understand: 
+
+# We can do this by an infinite while loop like this-
+# while ture:
+#     loop body;
+    
+while True:
+    n = int(input("Enter a positve number: ")) # this code will run the first
+    print(n)
+    if (n<0): # this is the loop condition, if satisfied then run agian else break(out of loop).
+        break
+print("Break")
+ 
