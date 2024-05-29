@@ -64,6 +64,19 @@ print(e.replace("Ramesh", "Suresh"))
 # The split() method splits the given string at the specified instance and returns the separated strings as list items. WE WILL LOOK INTO 'LIST' IN DEPTH LATER
 f="Ramesh,Suresh,Kamlesh,Mahesh,Jayesh"
 print("List of the students are:", f.split(",")) # Splits the string at the commas.
+# There is method called join which does opposite of split.
+
+
+# join(): 
+# The join() method takes all items in an iterable and joins them into one string.
+# A string must be specified as the separator.
+l1 = ["this", "is", "list"]
+l2 = ("this", "is" , "tuple")
+l3 = {"1": "this", "2": "is" ,"3": "dict" }
+sep = " " # this is a seperator to saperate the items of the iterable, in this case it is a white space it can be any other character like alphabets or numbers.
+print(sep.join(l1))
+print(sep.join(l2))
+print(sep.join(l3)) # Note: When using a dictionary as an iterable, the returned values are the keys, not the values. AND THE KEYS MUST BE A sting NOT AN int. 
 
 
 # capitalize() :
@@ -119,18 +132,6 @@ print(l.title())
 l = "I love you so much"
 print(l.partition("you"))
 # It'll convert everything before the "match", the "match" and everything after the "match"
-
-
-# join(): 
-# The join() method takes all items in an iterable and joins them into one string.
-# A string must be specified as the separator.
-l1 = ["this", "is", "list"]
-l2 = ("this", "is" , "tuple")
-l3 = {"1": "this", "2": "is" ,"3": "dict" }
-sep = " " # this is a seperator to saperate the items of the iterable, in this case it is a white space it can be any other character like alphabets or numbers.
-print(sep.join(l1))
-print(sep.join(l2))
-print(sep.join(l3)) # Note: When using a dictionary as an iterable, the returned values are the keys, not the values. AND THE KEYS MUST BE A sting NOT AN int. 
 
 
 # format():
