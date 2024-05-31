@@ -1,0 +1,12 @@
+1. importing module or a file to be used:
+import <module/file name>
+
+2. refering module or a file as a short name to increase productivity:
+import <module/file name> as <referal name>
+
+3. importing particular funation:
+from <module/file name> import <funation name 1>, <funation name 2>, ...
+
+4. importing all funations:
+from <module/file name> import *
+    

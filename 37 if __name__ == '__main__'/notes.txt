@@ -1,0 +1,10 @@
+In Python, __name__ is a special built-in variable that indicates the name of the module in which the code is running.
+It serves two primary purposes:
+
+1. Identify the Module:
+When a Python file is run directly, __name__ is set to '__main__'. When the same file is imported as a module in another script, __name__ is set to the name of the file/module.
+
+2. Control Execution:
+It is commonly used to control the execution of code, allowing you to specify certain blocks of code to run only when the file is executed directly, not when it is imported as a module. This is typically done with an if __name__ == "__main__": block.
+
+NOTE: Important for Interview point of view
