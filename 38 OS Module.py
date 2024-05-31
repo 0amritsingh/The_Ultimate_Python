@@ -1,14 +1,14 @@
+# OS Module in Python
+
 import os
 
-def allmethods():
+def allmethods(): # Run this funcation to get all the methods of os module at once.
     print('All Methods of OS Module is here:')
     for i,j in enumerate(dir(os), start=1):
         print(f'{i} - {j}\n')
-
 # allmethods()
 
 # The following are the most used/famous/important for a newbie. Explore these yourself.
-# And run the above funcation to get all the methods of os module at once.
 
 # 1. getcwd
 os.getcwd()
