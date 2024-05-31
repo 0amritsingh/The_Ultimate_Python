@@ -25,11 +25,11 @@ sum(2,3)
 
 # Define a user-defined function that takes another function as an argument
 def apply_function(x, func):
-    return func(x) # This can be any other code
-
+    return func(x)
 # Use a lambda function as the second argument
 result = apply_function(5, lambda y: y ** 2)
 
 print(result)  # Output: 25
 
+# NOTE: In that case Lambda is a High-Order Function: A high-order function in Python is a function that either takes one or more functions as arguments or returns a function as its result.
     
