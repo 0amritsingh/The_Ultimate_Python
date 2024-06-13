@@ -147,6 +147,22 @@ print(txt2.format("John",36))
 print(txt3.format("John",36))
 
 
+# ord():
+# The ord() function returns the number representing the unicode code of a specified character.
+# Syntax - ord(character)
+char = 'h'
+unicode_of_char = ord(char)
+print(unicode_of_char)
+      
+
+# chr():
+# The chr() function returns the character that represents the specified unicode.
+# Syntax - chr(number)
+unicode = 104
+char_of_unicode = chr(unicode)
+print(char_of_unicode)
+
+
 # ------------------------------------------------------------------
 # Now the following methods gives Boolean outputs i.e Ture or False: 
 # ------------------------------------------------------------------
