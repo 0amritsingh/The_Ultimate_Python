@@ -77,3 +77,14 @@ print('\n')
 print(obj3.name)
 print(obj3.age)
 obj3.info()
+
+# NOTE: *Imortant Points* - The four pillars of OOPs in python are:
+
+# Encapsulation: Bundling data (attributes) and methods that operate on the data into a single unit (class). It restricts direct access to some of an object's components and prevents the accidental modification of data.
+
+# Inheritance: Creating a new class (subclass or derived class) from an existing class (superclass or base class). It promotes code reuse and establishes a relationship between classes.
+
+# Polymorphism: The ability of different classes to respond to the same method call in their own specific way. It allows objects of different types to be treated as objects of a common type.
+
+# Abstraction: Hiding complex implementation details and exposing only essential information to the user. Abstract classes and methods define a common interface for different subclasses, without specifying how they should be implemented.
+    
