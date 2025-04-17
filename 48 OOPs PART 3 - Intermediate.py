@@ -1,4 +1,4 @@
-# Part 2: OOPs
+# Part 3: OOPs
 
 # [6] del keyword - delete any object or its attribute in class
 '''

@@ -1,4 +1,4 @@
-# Introduction to Object-Oriented Programming (OOP) in Python:
+# Part 1: Introduction to Object-Oriented Programming
 
 # There are two main ways to write programs:
 

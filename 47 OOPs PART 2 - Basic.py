@@ -1,4 +1,4 @@
-# Part 1: OOPs
+# Part 2: OOPs
 
 # [1] classes and objects - class is a blueprint or a template for objects to be created after that
 # [2] class and instance attributes - class.attr (common for all objects) and obj.attr (valued individualy i.e self.something = something)

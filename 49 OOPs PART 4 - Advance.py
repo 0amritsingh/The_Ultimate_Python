@@ -1,4 +1,4 @@
-# Part 2: OOPs
+# Part 4: OOPs
 
 # [10] Class Method - decorator - Static mehtod can't access or modify class state and generally for utility so class methods allow us to change the class attribute from object itself - A class method is  bound to the class and receives the class as an implicit first argument - Following examples for better understanding
 
