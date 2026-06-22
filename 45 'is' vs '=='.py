@@ -17,8 +17,8 @@ b = (1, 2, 5)
 print('Tuple (is):',a is b)
 print('Tuple (==):',a == b)
 
-a = {1, 2, 5} #lists are un-immutable
-b = {1, 2, 5}
+a = [1, 2, 5] #lists are mutable
+b = [1, 2, 5]
 
 print('List (is):',a is b)
 print('List (==):',a == b)
